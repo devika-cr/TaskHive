@@ -5,7 +5,7 @@ export default function Progresstracker({tasks}) {
   const percenteage = totaltasks == 0 ? 0: (completedTasks/totaltasks) * 100;
   return (
     <div className="progress-tracker">
-      <p>
+      <p className="comp">
         {completedTasks} of {totaltasks} tasks completed
       </p>
       <div className="progress-bar">
