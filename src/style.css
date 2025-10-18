@@ -23,10 +23,17 @@ body {
   max-width: 720px;
   /* margin: 0 auto; */
   padding: 24px;
-  background-color: rgb(198, 54, 131);
+  background-color: rgb(59, 127, 186);
   
 }
 
+.tagline {
+    color: rgb(223, 215, 215);
+}
+
+.title {
+    color: #EFEFEF;
+}
 header {
   margin-bottom: 16px;
 }
